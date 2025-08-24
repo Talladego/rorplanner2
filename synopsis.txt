@@ -1,0 +1,54 @@
+Synopsis
+
+We will create a web based app for the game Warhammer Online: Return of Reckoning where you can custom build your character's equipment loadout.
+The app will let you select your character's career (one of 24 available in game), career rank (1-40) and renown rank (1-255).
+The app will the display each equipment slot in a grid layout with a clickable icon.
+Clicking an equipment slot will present you with a list of available items for that slot based on career, career rank and renown rank.
+Selecting an item from that list will update the eauipment slot with information about the selected item.
+The item's icon and name will be displayed in the equipment slot.
+Some items have empty talisman slots where you can slot items (talismans) that proved bonus stats.
+If a selected item has talisman slots they should be displayed with smaller icons next to the equipment icon in the gear slot.
+Clicking a talisman slot will present you with a list of available talismans for that slot based on equipment level.
+Hovering over the selected item in the equipment slot will display a rich tooltip with all info for that item.
+A stats summary window will list the total of all bonuses the selected items provide.
+
+The app title should be RorPlanner
+A toolbar with selections for career, career rank and renown ranks and a reset button should be at the top of the app page.
+Below the toolbar should be equipment slots shown in a grid layout.
+The basic layout we want looks like this ascii schematic drawing.
+
+                                        RorPlanner                                               
++-----------------------------------------------------------------------------------------------+
+| +-------------------------------------------------------------------------------------------+ |
+| |       +--------------------+      +-+       +-+                                           | |
+| | Career|                    | Level| | Renown| |                                           | |
+| |       +--------------------+      +-+       +-+                                           | |
+| +-------------------------------------------------------------------------------------------+ |
+| +-------------------------------------------------------------------------------------------+ |
+| |+---+            +---+             +---+                           Stats                   | |
+| ||   | Helm       |   | Jewel 1     |   | Main hand  +------------------------------------+ | |
+| |+---+            +---+             +---+            |                                    | | |
+| |+---+            +---+             +---+            |                                    | | |
+| ||   | Shoulders  |   | Jewel 2     |   | Off hand   |                                    | | |
+| |+---+            +---+             +---+            |                                    | | |
+| |+---+            +---+             +---+            |                                    | | |
+| ||   | Back       |   | Jewel 3     |   | Ranged     |                                    | | |
+| |+---+            +---+             +---+            |                                    | | |
+| |+---+            +---+                              |                                    | | |
+| ||   | Body       |   | Jewel 4                      |                                    | | |
+| |+---+            +---+                              |                                    | | |
+| |+---+            +---+                              |                                    | | |
+| ||   | Gloves     |   | Pocket 1                     |                                    | | |
+| |+---+            +---+                              |                                    | | |
+| |+---+            +---+                              |                                    | | |
+| ||   | Belt       |   | Pocket 2                     |                                    | | |
+| |+---+            +---+                              |                                    | | |
+| |+---+            +---+                              |                                    | | |
+| ||   | Boots      |   | Event item                   |                                    | | |
+| |+---+            +---+                              |                                    | | |
+| |                                                    |                                    | | |
+| |                                                    |                                    | | |
+| |                                                    |                                    | | |
+| |                                                    +------------------------------------+ | |
+| +-------------------------------------------------------------------------------------------+ |
++-----------------------------------------------------------------------------------------------+
