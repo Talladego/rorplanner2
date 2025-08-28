@@ -1,6 +1,14 @@
-import { ApolloClient, InMemoryCache } from '@apollo/client'
+import { ApolloClient, InMemoryCache, createHttpLink } from '@apollo/client'
+
+const httpLink = createHttpLink({
+  uri: 'https://production-api.waremu.com/graphql',
+  headers: {
+    Accept: 'application/json',
+    'Content-Type': 'application/json',
+  },
+})
 
 export const apolloClient = new ApolloClient({
-  uri: 'https://production-api.waremu.com/graphql/',
+  link: httpLink,
   cache: new InMemoryCache(),
 })

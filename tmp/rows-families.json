@@ -1,0 +1,1572 @@
+[
+  {
+    "id": "1844",
+    "name": "Waraxe of the Subjugator",
+    "d": 799,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "1845",
+    "name": "Hammer of the Subjugator",
+    "d": 544,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "1846",
+    "name": "Axe of the Subjugator",
+    "d": 544,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "1848",
+    "name": "Hammerstaff of the Subjugator",
+    "d": 799,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "1850",
+    "name": "Spanner of the Subjugator",
+    "d": 544,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "1851",
+    "name": "Cleava of the Subjugator",
+    "d": 544,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "1853",
+    "name": "Bigchoppa of the Subjugator",
+    "d": 799,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "1854",
+    "name": "Waaaghstick of the Subjugator",
+    "d": 799,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "1856",
+    "name": "Stabba of the Subjugator",
+    "d": 544,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "1857",
+    "name": "Falcata of the Subjugator",
+    "d": 544,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "1859",
+    "name": "Chraceaxe of the Subjugator",
+    "d": 799,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "1860",
+    "name": "Longstaff of the Subjugator",
+    "d": 799,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "1862",
+    "name": "Blade of the Subjugator",
+    "d": 544,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "1863",
+    "name": "MasterBlade of the Subjugator",
+    "d": 799,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "1864",
+    "name": "Rapier of the Subjugator",
+    "d": 544,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "1866",
+    "name": "Sledge of the Subjugator",
+    "d": 799,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "1867",
+    "name": "Battlehammer of the Subjugator",
+    "d": 544,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "1869",
+    "name": "Claymore of the Subjugator",
+    "d": 799,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "1870",
+    "name": "Sword of the Subjugator",
+    "d": 544,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "1872",
+    "name": "Kindlestave of the Subjugator",
+    "d": 799,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "1873",
+    "name": "Halberd of the Subjugator",
+    "d": 799,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "1875",
+    "name": "Painblade of the Subjugator",
+    "d": 544,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "1876",
+    "name": "Stiletto of the Subjugator",
+    "d": 544,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "1877",
+    "name": "Xiphos of the Subjugator",
+    "d": 544,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "1879",
+    "name": "Warstaff of the Subjugator",
+    "d": 799,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "1881",
+    "name": "Deathsword of the Subjugator",
+    "d": 799,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "1882",
+    "name": "Chaosaxe of the Subjugator",
+    "d": 544,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "1884",
+    "name": "Knife of the Subjugator",
+    "d": 544,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "1885",
+    "name": "Ninestaff of the Subjugator",
+    "d": 799,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "1886",
+    "name": "Warhammer of the Subjugator",
+    "d": 799,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "1887",
+    "name": "Big Fumper of the Subjugator",
+    "d": 799,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "1888",
+    "name": "Deathaxe of the Subjugator",
+    "d": 799,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "1889",
+    "name": "Trollsmasher of the Subjugator",
+    "d": 799,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "1890",
+    "name": "Windstaff of the Subjugator",
+    "d": 799,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "1891",
+    "name": "Zaptwig of the Subjugator",
+    "d": 799,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "3402",
+    "name": "Fortress Trollsplitter",
+    "d": 856,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 1
+  },
+  {
+    "id": "3403",
+    "name": "Fortress Orcsplitter",
+    "d": 578,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 0
+  },
+  {
+    "id": "3404",
+    "name": "Fortress Hammer",
+    "d": 578,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 0
+  },
+  {
+    "id": "3405",
+    "name": "Fortress Hammerstaff",
+    "d": 856,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 1
+  },
+  {
+    "id": "3406",
+    "name": "Fortress Runestaff",
+    "d": 856,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 1
+  },
+  {
+    "id": "3408",
+    "name": "Fortress Wrench",
+    "d": 578,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 0
+  },
+  {
+    "id": "3410",
+    "name": "Fortress Bigchoppa",
+    "d": 856,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 1
+  },
+  {
+    "id": "3411",
+    "name": "Fortress Cleava",
+    "d": 578,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 0
+  },
+  {
+    "id": "3412",
+    "name": "Fortress Choppa",
+    "d": 578,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 0
+  },
+  {
+    "id": "3413",
+    "name": "Fortress Waaaghstick",
+    "d": 856,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 1
+  },
+  {
+    "id": "3414",
+    "name": "Fortress Zaptwig",
+    "d": 856,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 1
+  },
+  {
+    "id": "3416",
+    "name": "Fortress Jabbystick",
+    "d": 578,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 0
+  },
+  {
+    "id": "3417",
+    "name": "Fortress Spatha",
+    "d": 578,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 0
+  },
+  {
+    "id": "3419",
+    "name": "Fortress Claymore",
+    "d": 856,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 1
+  },
+  {
+    "id": "3420",
+    "name": "Fortress Longsword",
+    "d": 578,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 0
+  },
+  {
+    "id": "3422",
+    "name": "Fortress Greatstaff",
+    "d": 856,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 1
+  },
+  {
+    "id": "3423",
+    "name": "Fortress Smiter",
+    "d": 578,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 0
+  },
+  {
+    "id": "3425",
+    "name": "Fortress Greathammer",
+    "d": 856,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 1
+  },
+  {
+    "id": "3426",
+    "name": "Fortress Battlehammer",
+    "d": 578,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 0
+  },
+  {
+    "id": "3429",
+    "name": "Fortress Bonesplit",
+    "d": 856,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 1
+  },
+  {
+    "id": "3430",
+    "name": "Fortress Labrys",
+    "d": 578,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 0
+  },
+  {
+    "id": "3433",
+    "name": "Fortress Skinflayer",
+    "d": 578,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 0
+  },
+  {
+    "id": "3434",
+    "name": "Fortress Slicer",
+    "d": 578,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 0
+  },
+  {
+    "id": "3435",
+    "name": "Fortress Changestaff",
+    "d": 856,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 1
+  },
+  {
+    "id": "3437",
+    "name": "Fortress Blade",
+    "d": 578,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 0
+  },
+  {
+    "id": "3438",
+    "name": "Fortress Greatsword",
+    "d": 856,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 1
+  },
+  {
+    "id": "3439",
+    "name": "Fortress Falcata",
+    "d": 578,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 0
+  },
+  {
+    "id": "3441",
+    "name": "Fortress Chraceaxe",
+    "d": 856,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 1
+  },
+  {
+    "id": "3442",
+    "name": "Fortress Longstaff",
+    "d": 856,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 1
+  },
+  {
+    "id": "3443",
+    "name": "Fortress Windstaff",
+    "d": 856,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 1
+  },
+  {
+    "id": "3444",
+    "name": "Fortress Halberd",
+    "d": 856,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 1
+  },
+  {
+    "id": "3446",
+    "name": "Fortress Blood Drinker",
+    "d": 578,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 0
+  },
+  {
+    "id": "3447",
+    "name": "Fortress Edge",
+    "d": 578,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 0
+  },
+  {
+    "id": "3450",
+    "name": "Fortress Painblade",
+    "d": 578,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 0
+  },
+  {
+    "id": "3451",
+    "name": "Fortress Witchstaff",
+    "d": 856,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 1
+  },
+  {
+    "id": "3452",
+    "name": "Fortress Cleaver",
+    "d": 578,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 0
+  },
+  {
+    "id": "3453",
+    "name": "Fortress Xiphos",
+    "d": 578,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 0
+  },
+  {
+    "id": "3454",
+    "name": "Fortress Gladius",
+    "d": 578,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 0
+  },
+  {
+    "id": "3868",
+    "name": "Combat Hammer of the Subjugator",
+    "d": 544,
+    "ilvl": 56,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10402",
+    "name": "Bloodlord Blade",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10404",
+    "name": "Bloodlord Edge",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10405",
+    "name": "Bloodlord Painblade",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10406",
+    "name": "Bloodlord Misericord",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10407",
+    "name": "Bloodlord Sabre",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10408",
+    "name": "Bloodlord Chaosaxe",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10409",
+    "name": "Bloodlord Shanka",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10412",
+    "name": "Bloodlord Waraxe",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10413",
+    "name": "Bloodlord Bigchoppa",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10414",
+    "name": "Bloodlord Hatchet",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10415",
+    "name": "Bloodlord Greatsword",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10416",
+    "name": "Bloodlord Chraceaxe",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10417",
+    "name": "Bloodlord Greataxe",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10418",
+    "name": "Bloodlord Glaive",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10419",
+    "name": "Bloodlord Claymore",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10420",
+    "name": "Bloodlord Sledge",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10421",
+    "name": "Bloodlord Deathaxe",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10428",
+    "name": "Bloodlord Carva",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10429",
+    "name": "Bloodlord Choppa",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10430",
+    "name": "Bloodlord Crusher",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10431",
+    "name": "Bloodlord Xiphos",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10432",
+    "name": "Bloodlord Makhaira",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10433",
+    "name": "Bloodlord Blood Drinker",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10434",
+    "name": "Bloodlord Longsword",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10436",
+    "name": "Bloodlord Axe",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10437",
+    "name": "Bloodlord Cleava",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10438",
+    "name": "Bloodlord Cutta",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10439",
+    "name": "Bloodlord Battlehammer",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10440",
+    "name": "Bloodlord Deathsword",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10441",
+    "name": "Bloodlord Slayer",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10443",
+    "name": "Bloodlord Spanner",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10444",
+    "name": "Bloodlord Stabba",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10447",
+    "name": "Bloodlord Falcata",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10450",
+    "name": "Bloodlord Skinflayer",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10452",
+    "name": "Bloodlord Knife",
+    "d": 490,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10453",
+    "name": "Bloodlord Runestaff",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10455",
+    "name": "Bloodlord Waaaghstick",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10457",
+    "name": "Bloodlord Windstaff",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10459",
+    "name": "Bloodlord Witchstaff",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10461",
+    "name": "Bloodlord Greatstaff",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10463",
+    "name": "Bloodlord Daemonstaff",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10702",
+    "name": "Bloodlord Blade",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10704",
+    "name": "Bloodlord Edge",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10705",
+    "name": "Bloodlord Painblade",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10706",
+    "name": "Bloodlord Misericord",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10707",
+    "name": "Bloodlord Sabre",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10708",
+    "name": "Bloodlord Chaosaxe",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10709",
+    "name": "Bloodlord Shanka",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10712",
+    "name": "Bloodlord Waraxe",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10713",
+    "name": "Bloodlord Bigchoppa",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10714",
+    "name": "Bloodlord Hatchet",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10715",
+    "name": "Bloodlord Greatsword",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10716",
+    "name": "Bloodlord Chraceaxe",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10717",
+    "name": "Bloodlord Greataxe",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10718",
+    "name": "Bloodlord Glaive",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10719",
+    "name": "Bloodlord Claymore",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10720",
+    "name": "Bloodlord Sledge",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10721",
+    "name": "Bloodlord Deathaxe",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10728",
+    "name": "Bloodlord Carva",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10729",
+    "name": "Bloodlord Choppa",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10730",
+    "name": "Bloodlord Crusher",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10731",
+    "name": "Bloodlord Xiphos",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10732",
+    "name": "Bloodlord Makhaira",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10733",
+    "name": "Bloodlord Blood Drinker",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10734",
+    "name": "Bloodlord Longsword",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10736",
+    "name": "Bloodlord Axe",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10737",
+    "name": "Bloodlord Cleava",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10738",
+    "name": "Bloodlord Cutta",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10739",
+    "name": "Bloodlord Battlehammer",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10740",
+    "name": "Bloodlord Direblade",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10741",
+    "name": "Bloodlord Slayer",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10743",
+    "name": "Bloodlord Spanner",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10744",
+    "name": "Bloodlord Stabba",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10747",
+    "name": "Bloodlord Falcata",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10750",
+    "name": "Bloodlord Skinflayer",
+    "d": 560,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10752",
+    "name": "Bloodlord Knife",
+    "d": 490,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 0
+  },
+  {
+    "id": "10753",
+    "name": "Bloodlord Runestaff",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10755",
+    "name": "Bloodlord Waaaghstick",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10757",
+    "name": "Bloodlord Windstaff",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10759",
+    "name": "Bloodlord Witchstaff",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10761",
+    "name": "Bloodlord Greatstaff",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "10763",
+    "name": "Bloodlord Daemonstaff",
+    "d": 826,
+    "ilvl": 60,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 0,
+    "hand": 1
+  },
+  {
+    "id": "200000",
+    "name": "Fortress Blade",
+    "d": 578,
+    "ilvl": 66,
+    "lvlReq": 40,
+    "rf": 3,
+    "ren": 66,
+    "hand": 0
+  }
+]

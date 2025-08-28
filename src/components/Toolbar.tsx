@@ -1,5 +1,6 @@
 import React from 'react'
 import { useBuild } from '../lib/buildContext'
+import { friendlyName } from '../lib/constants'
 import { gql, useQuery } from '@apollo/client'
 
 const CAREER_ENUM_QUERY = gql`
@@ -84,7 +85,7 @@ function CareerSelect({ setCareer, value }: { setCareer: (id?: string) => void; 
       <select id="career-select" onChange={(e) => setCareer(e.target.value)} value={value}>
         <option value="">-- select --</option>
         {items.map((c) => (
-          <option key={c} value={c}>{c}</option>
+          <option key={c} value={c}>{friendlyName(c)}</option>
         ))}
       </select>
     </div>

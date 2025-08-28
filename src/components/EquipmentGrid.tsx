@@ -23,14 +23,15 @@ const SLOTS: Array<{ key: string; col: number; row: number; colSpan?: number; ro
   // event slot moved under the jewels (col 2) to match the synopsis layout
   { key: 'event', col: 2, row: 5 },
 
-  // place belt and boots directly under body to form a vertical column
-  { key: 'belt', col: 1, row: 5 },
-  { key: 'boots', col: 1, row: 6 },
+  // place gloves below body and above belt
+  { key: 'gloves', col: 1, row: 5 },
+  // place belt and boots directly under gloves to form a vertical column
+  { key: 'belt', col: 1, row: 6 },
+  { key: 'boots', col: 1, row: 7 },
 
-  // move pockets and gloves down to avoid collisions
+  // move pockets down to avoid collisions
   { key: 'pocket1', col: 2, row: 6 },
   { key: 'pocket2', col: 2, row: 7 },
-  { key: 'gloves', col: 1, row: 7 },
 ]
 
 export default function EquipmentGrid() {

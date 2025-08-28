@@ -1,0 +1,352 @@
+import type { SlotKey } from './buildContext'
+
+export const RARITY_COLORS: Record<string, string> = {
+  MYTHIC: '#c83c00',
+  VERY_RARE: '#9238d0',
+  RARE: '#0064c3',
+  UNCOMMON: '#18f000',
+  COMMON: '#fff',
+  UTILITY: '#969696',
+}
+
+export const ITEMSET_COLOR = '#f0be28'
+export const EMPTY_TALISMAN_ICON = 'https://armory.returnofreckoning.com/icon/1'
+export const MODAL_ROOT_ID = 'modal-root'
+export const TOOLTIP_ROOT_ID = 'tooltip-root'
+export const MUTED_COLOR = '#9aa6b2'
+
+// --------- enum maps (migrated from enumMaps.ts) ----------
+export const statNames: Record<string, string> = {
+  STRENGTH: 'Strength',
+  AGILITY: 'Agility',
+  WILLPOWER: 'Willpower',
+  TOUGHNESS: 'Toughness',
+  WOUNDS: 'Wounds',
+  INITIATIVE: 'Initiative',
+  WEAPON_SKILL: 'Weapon Skill',
+  BALLISTIC_SKILL: 'Ballistic Skill',
+  INTELLIGENCE: 'Intelligence',
+  SPIRIT_RESISTANCE: 'Spirit Resistance',
+  ELEMENTAL_RESISTANCE: 'Elemental Resistance',
+  CORPOREAL_RESISTANCE: 'Corporeal Resistance',
+  INCOMING_DAMAGE: 'Incoming Damage',
+  INCOMING_DAMAGE_PERCENT: 'Incoming Damage %',
+  OUTGOING_DAMAGE: 'Outgoing Damage',
+  OUTGOING_DAMAGE_PERCENT: 'Outgoing Damage %',
+  ARMOR: 'Armor',
+  VELOCITY: 'Velocity',
+  BLOCK: 'Block',
+  PARRY: 'Parry',
+  EVADE: 'Evade',
+  DISRUPT: 'Disrupt',
+  ACTION_POINT_REGEN: 'Action Point Regen',
+  MORALE_REGEN: 'Morale Regen',
+  COOLDOWN: 'Cooldown',
+  BUILD_TIME: 'Build Time',
+  CRITICAL_DAMAGE: 'Critical Damage',
+  RANGE: 'Range',
+  AUTO_ATTACK_SPEED: 'Auto Attack Speed',
+  RADIUS: 'Radius',
+  AUTO_ATTACK_DAMAGE: 'Auto Attack Damage',
+  ACTION_POINT_COST: 'Action Point Cost',
+  CRITICAL_HIT_RATE: 'Critical Hit Rate',
+  CRITICAL_DAMAGE_TAKEN_REDUCTION: 'Critical Damage Taken Reduction',
+  EFFECT_RESIST: 'Effect Resist',
+  EFFECT_BUFF: 'Effect Buff',
+  MINIMUM_RANGE: 'Minimum Range',
+  DAMAGE_ABSORB: 'Damage Absorb',
+  SETBACK_CHANCE: 'Setback Chance',
+  SETBACK_VALUE: 'Setback Value',
+  XP_WORTH: 'XP Worth',
+  RENOWN_WORTH: 'Renown Worth',
+  INFLUENCE_WORTH: 'Influence Worth',
+  MONETARY_WORTH: 'Monetary Worth',
+  AGGRO_RADIUS: 'Aggro Radius',
+  TARGET_DURATION: 'Target Duration',
+  SPECIALIZATION: 'Specialization',
+  GOLD_LOOTED: 'Gold Looted',
+  XP_RECEIVED: 'XP Received',
+  BUTCHERING: 'Butchering',
+  SCAVENGING: 'Scavenging',
+  CULTIVATION: 'Cultivation',
+  APOTHECARY: 'Apothecary',
+  TALISMAN_MAKING: 'Talisman Making',
+  SALVAGING: 'Salvaging',
+  STEALTH: 'Stealth',
+  STEALTH_DETECTION: 'Stealth Detection',
+  HATE_CAUSED: 'Hate Caused',
+  HATE_RECEIVED: 'Hate Received',
+  OFFHAND_PROC_CHANCE: 'Offhand Proc Chance',
+  OFFHAND_DAMAGE: 'Offhand Damage',
+  RENOWN_RECEIVED: 'Renown Received',
+  INFLUENCE_RECEIVED: 'Influence Received',
+  DISMOUNT_CHANCE: 'Dismount Chance',
+  GRAVITY: 'Gravity',
+  LEVITATION_HEIGHT: 'Levitation Height',
+  MELEE_CRIT_RATE: 'Melee Crit Rate',
+  RANGED_CRIT_RATE: 'Ranged Crit Rate',
+  MAGIC_CRIT_RATE: 'Magic Crit Rate',
+  HEALTH_REGEN: 'Health Regen',
+  MELEE_POWER: 'Melee Power',
+  RANGED_POWER: 'Ranged Power',
+  MAGIC_POWER: 'Magic Power',
+  ARMOR_PENETRATION_REDUCTION: 'Armor Penetration Reduction',
+  CRITICAL_HIT_RATE_REDUCTION: 'Critical Hit Rate Reduction',
+  BLOCK_STRIKETHROUGH: 'Block Strikethrough',
+  PARRY_STRIKETHROUGH: 'Parry Strikethrough',
+  EVADE_STRIKETHROUGH: 'Evade Strikethrough',
+  DISRUPT_STRIKETHROUGH: 'Disrupt Strikethrough',
+  HEAL_CRIT_RATE: 'Heal Crit Rate',
+  MAX_ACTION_POINTS: 'Max Action Points',
+  MASTERY_1_BONUS: 'Mastery 1 Bonus',
+  MASTERY_2_BONUS: 'Mastery 2 Bonus',
+  MASTERY_3_BONUS: 'Mastery 3 Bonus',
+  HEALING_POWER: 'Healing Power',
+  INTERACT_TIME: 'Interact Time',
+  FORTITUDE: 'Fortitude',
+  OUTGOING_HEAL_PERCENT: 'Outgoing Heal %',
+  INCOMING_HEAL_PERCENT: 'Incoming Heal %',
+  ARMOR_PENETRATION: 'Armor Penetration',
+  LOOT_CHANCE: 'Loot Chance',
+}
+
+// Stats that returned zero matching items when queried against the production API.
+// Use this to exclude unused stats from the item filter UI.
+export const STATS_WITH_ZERO_ITEMS: string[] = [
+  'INCOMING_DAMAGE',
+  'INCOMING_DAMAGE_PERCENT',
+  'OUTGOING_DAMAGE',
+  'OUTGOING_DAMAGE_PERCENT',
+  'VELOCITY',
+  'COOLDOWN',
+  'BUILD_TIME',
+  'CRITICAL_DAMAGE',
+  'RADIUS',
+  'AUTO_ATTACK_DAMAGE',
+  'EFFECT_RESIST',
+  'EFFECT_BUFF',
+  'MINIMUM_RANGE',
+  'DAMAGE_ABSORB',
+  'SETBACK_CHANCE',
+  'SETBACK_VALUE',
+  'XP_WORTH',
+  'RENOWN_WORTH',
+  'INFLUENCE_WORTH',
+  'AGGRO_RADIUS',
+  'TARGET_DURATION',
+  'SPECIALIZATION',
+  'BUTCHERING',
+  'SCAVENGING',
+  'CULTIVATION',
+  'APOTHECARY',
+  'TALISMAN_MAKING',
+  'SALVAGING',
+  'STEALTH',
+  'STEALTH_DETECTION',
+  'OFFHAND_PROC_CHANCE',
+  'OFFHAND_DAMAGE',
+  'DISMOUNT_CHANCE',
+  'GRAVITY',
+  'LEVITATION_HEIGHT',
+  'MASTERY_1_BONUS',
+  'MASTERY_2_BONUS',
+  'MASTERY_3_BONUS',
+  'INTERACT_TIME',
+  'OUTGOING_HEAL_PERCENT',
+  'LOOT_CHANCE',
+]
+
+export const careers: Record<string, string> = {
+  IRON_BREAKER: 'Ironbreaker',
+  SLAYER: 'Slayer',
+  RUNE_PRIEST: 'Rune Priest',
+  ENGINEER: 'Engineer',
+  BLACK_ORC: 'Black Orc',
+  CHOPPA: 'Choppa',
+  SHAMAN: 'Shaman',
+  SQUIG_HERDER: 'Squig Herder',
+  WITCH_HUNTER: 'Witch Hunter',
+  KNIGHT_OF_THE_BLAZING_SUN: "Knight of the Blazing Sun",
+  BRIGHT_WIZARD: 'Bright Wizard',
+  WARRIOR_PRIEST: 'Warrior Priest',
+  CHOSEN: 'Chosen',
+  MARAUDER: 'Marauder',
+  ZEALOT: 'Zealot',
+  MAGUS: 'Magus',
+  SWORD_MASTER: 'Sword Master',
+  SHADOW_WARRIOR: 'Shadow Warrior',
+  WHITE_LION: 'White Lion',
+  ARCHMAGE: 'Archmage',
+  BLACK_GUARD: 'Black Guard',
+  WITCH_ELF: 'Witch Elf',
+  DISCIPLE_OF_KHAINE: 'Disciple of Khaine',
+  SORCERER: 'Sorcerer',
+}
+
+export const races: Record<string, string> = {
+  DWARF: 'Dwarf',
+  ORC: 'Orc',
+  GOBLIN: 'Goblin',
+  HIGH_ELF: 'High Elf',
+  DARK_ELF: 'Dark Elf',
+  EMPIRE: 'Empire',
+  CHAOS: 'Chaos',
+}
+
+export const slotNames: Record<string, string> = {
+  NONE: 'None',
+  MAIN_HAND: 'Main Hand',
+  EVENT: 'Event',
+  OFF_HAND: 'Off Hand',
+  RANGED_WEAPON: 'Ranged Weapon',
+  EITHER_HAND: 'Either Hand',
+  STANDARD: 'Standard',
+  TROPHY1: 'Trophy 1',
+  TROPHY2: 'Trophy 2',
+  TROPHY3: 'Trophy 3',
+  TROPHY4: 'Trophy 4',
+  TROPHY5: 'Trophy 5',
+  BODY: 'Body',
+  GLOVES: 'Gloves',
+  BOOTS: 'Boots',
+  HELM: 'Head',
+  SHOULDER: 'Shoulder',
+  BACK: 'Back',
+  POCKET1: 'Pocket 1',
+  POCKET2: 'Pocket 2',
+  BELT: 'Belt',
+  JEWELLERY1: 'Jewel 1',
+  JEWELLERY2: 'Jewel 2',
+  JEWELLERY3: 'Jewel 3',
+  JEWELLERY4: 'Jewel 4',
+}
+
+// Canonical slot enum values as provided by the server schema. Use these
+// constants when matching item.slot values so we don't scatter string
+// literals across the codebase.
+export const SLOTS: Record<string, string> = {
+  NONE: 'NONE',
+  EVENT: 'EVENT',
+  MAIN_HAND: 'MAIN_HAND',
+  OFF_HAND: 'OFF_HAND',
+  RANGED_WEAPON: 'RANGED_WEAPON',
+  EITHER_HAND: 'EITHER_HAND',
+  TWO_HAND: 'TWO_HAND',
+  TWO_HANDED: 'TWO_HANDED',
+  TWO_HANDED_WEAPON: 'TWO_HANDED_WEAPON',
+  STANDARD: 'STANDARD',
+  TROPHY1: 'TROPHY1',
+  TROPHY2: 'TROPHY2',
+  TROPHY3: 'TROPHY3',
+  TROPHY4: 'TROPHY4',
+  TROPHY5: 'TROPHY5',
+  BODY: 'BODY',
+  GLOVES: 'GLOVES',
+  BOOTS: 'BOOTS',
+  HELM: 'HELM',
+  SHOULDER: 'SHOULDER',
+  POCKET1: 'POCKET1',
+  POCKET2: 'POCKET2',
+  BACK: 'BACK',
+  BELT: 'BELT',
+  JEWELLERY1: 'JEWELLERY1',
+  JEWELLERY2: 'JEWELLERY2',
+  JEWELLERY3: 'JEWELLERY3',
+  JEWELLERY4: 'JEWELLERY4',
+}
+
+export const typeNames: Record<string, string> = {
+  NONE: 'None',
+  SWORD: 'Sword',
+  AXE: 'Axe',
+  HAMMER: 'Hammer',
+  BASIC_SHIELD: 'Basic Shield',
+  SHIELD: 'Shield',
+  ROBE: 'Robe',
+  BOW: 'Bow',
+  CROSSBOW: 'Crossbow',
+  GUN: 'Gun',
+  EXPERT_SHIELD: 'Expert Shield',
+  STAFF: 'Staff',
+  DAGGER: 'Dagger',
+  SPEAR: 'Spear',
+  PISTOL: 'Pistol',
+  LANCE: 'Lance',
+  REPEATING_CROSSBOW: 'Repeating Crossbow',
+  LIGHT_ARMOR: 'Light Armor',
+  MEDIUM_ARMOR: 'Medium Armor',
+  HEAVY_ARMOR: 'Heavy Armor',
+  QUEST: 'Quest',
+  MEDIUM_ROBE: 'Medium Robe',
+  ENHANCEMENT: 'Enhancement',
+  TROPHY: 'Trophy',
+  CHARM: 'Charm',
+  DYE: 'Dye',
+  BASIC_MOUNT: 'Basic Mount',
+  ADVANCED_MOUNT: 'Advanced Mount',
+  POTION: 'Potion',
+  SALVAGING: 'Salvaging',
+  MARKETING: 'Marketing',
+  CRAFTING: 'Crafting',
+  ACCESSORY: 'Accessory',
+  CURRENCY: 'Currency',
+  TELEPORT: 'Teleport',
+  TELEPORT_GROUP: 'Teleport (Group)',
+  SIEGE: 'Siege',
+  TREASURE_CHEST: 'Treasure Chest',
+  TREASURE_KEY: 'Treasure Key',
+  REFINER_TOOL: 'Refiner Tool',
+}
+
+export default {
+  statNames,
+  careers,
+  races,
+  slotNames,
+  typeNames,
+}
+
+// Generic helper to convert enum-like values to a friendly display string.
+export function friendlyName(value: any): string {
+  if (value == null) return ''
+  if (Array.isArray(value)) return value.map(v => friendlyName(v)).join(', ')
+  if (typeof value !== 'string') return String(value)
+
+  // check known maps first
+  if (statNames[value]) return statNames[value]
+  if (careers[value]) return careers[value]
+  if (races[value]) return races[value]
+  if (slotNames[value]) return slotNames[value]
+  if (typeNames[value]) return typeNames[value]
+
+  // fallback: transform ENUM_LIKE or camelCase into 'Enum Like'
+  let s = value.replace(/_/g, ' ')
+  s = s.replace(/([a-z])([A-Z])/g, '$1 $2')
+  s = s.toLowerCase().replace(/(^|\s)\S/g, (t) => t.toUpperCase())
+  return s
+}
+
+// --------- default icons (migrated from defaultIcons.ts) ----------
+const ICONS: Record<string, string> = {
+  'mainhand': 'https://armory.returnofreckoning.com/icon/6',
+  'offhand': 'https://armory.returnofreckoning.com/icon/7',
+  'ranged': 'https://armory.returnofreckoning.com/icon/8',
+  'body': 'https://armory.returnofreckoning.com/icon/9',
+  'gloves': 'https://armory.returnofreckoning.com/icon/10',
+  'boots': 'https://armory.returnofreckoning.com/icon/11',
+  'helm': 'https://armory.returnofreckoning.com/icon/12',
+  'shoulders': 'https://armory.returnofreckoning.com/icon/13',
+  'back': 'https://armory.returnofreckoning.com/icon/16', // cloak/back
+  'belt': 'https://armory.returnofreckoning.com/icon/17',
+  'jewel1': 'https://armory.returnofreckoning.com/icon/20',
+  'jewel2': 'https://armory.returnofreckoning.com/icon/20',
+  'jewel3': 'https://armory.returnofreckoning.com/icon/20',
+  'jewel4': 'https://armory.returnofreckoning.com/icon/20',
+  'event': 'https://armory.returnofreckoning.com/icon/20',
+  'pocket1': 'https://armory.returnofreckoning.com/icon/36',
+  'pocket2': 'https://armory.returnofreckoning.com/icon/36',
+}
+
+export function getDefaultIcon(slot: SlotKey | string): string | undefined {
+  return ICONS[slot] ?? ICONS[String(slot).toLowerCase()]
+}
