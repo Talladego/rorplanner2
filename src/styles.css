@@ -5,6 +5,9 @@
   --accent: #60a5fa;
   --card: #0b1318;
   --glass: rgba(255,255,255,0.03);
+  /* icon sizes: default slot-card behavior remains unchanged; medium used for picker & tooltip; small used for talismans */
+  --icon-medium: 40px;
+  --icon-small: 18px;
 }
 
 *{box-sizing:border-box}
@@ -35,14 +38,36 @@ body{font-family:Inter, system-ui, Arial, sans-serif; margin:0;background:var(--
 
 .grid-slot{align-items:stretch}
 
-.slot-card{background:var(--panel);border-radius:10px;padding:3px 6px;display:flex;flex-direction:column;align-items:stretch;justify-content:center;cursor:pointer;box-shadow:0 6px 18px rgba(2,6,23,0.6);transition:transform .12s ease,box-shadow .12s ease,border-color .12s ease;height:100%;width:100%;border:1px solid transparent}
-.slot-card:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(96,165,250,0.14), 0 10px 24px rgba(2,6,23,0.6);border-color:rgba(96,165,250,0.30)}
-.slot-card:focus-visible{outline:none;border-color:rgba(96,165,250,0.36);box-shadow:0 20px 46px rgba(96,165,250,0.18), 0 8px 20px rgba(2,6,23,0.65)}
-.slot-row{display:flex;gap:6px;align-items:flex-start;height:100%;justify-content:flex-start;padding-top:0}
-.slot-icon{background:var(--glass);border-radius:8px;display:inline-flex;align-items:flex-start;justify-content:center;overflow:visible;padding:2px}
-.slot-icon img{width:auto;height:auto;display:block;max-width:none;max-height:none}
-.slot-meta{display:flex;flex-direction:row;gap:8px;align-items:flex-start;flex:1;justify-content:flex-start;min-width:0}
-.slot-name{font-size:13px;color:#cfe6ff;text-transform:capitalize;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:left;margin-top:0}
+.slot-card{background:var(--panel);border-radius:10px;padding:3px 6px;display:flex;flex-direction:column;align-items:stretch;justify-content:center;box-shadow:0 6px 18px rgba(2,6,23,0.6);height:100%;width:100%;border:1px solid transparent}
+
+/* Hover and focus animations apply only to the interactive icon inside the slot card */
+.slot-icon{transition:transform .12s ease,box-shadow .12s ease,border-color .12s ease;cursor:pointer}
+.slot-icon:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(96,165,250,0.14), 0 10px 24px rgba(2,6,23,0.6);border-color:rgba(96,165,250,0.30)}
+.slot-icon:focus-visible{outline:none;border-color:rgba(96,165,250,0.36);box-shadow:0 20px 46px rgba(96,165,250,0.18), 0 8px 20px rgba(2,6,23,0.65)}
+.slot-row{display:flex;gap:4px;align-items:center;height:100%;justify-content:flex-start;padding-top:0}
+/* Center row contents (icon + meta) vertically so talisman column centers with icon; slot-name remains top-left via align-self */
+.slot-card .slot-row{align-items:center}
+.slot-icon{background:var(--glass);border-radius:8px;display:inline-flex;align-items:center;justify-content:center;overflow:visible;padding:2px}
+.slot-icon img{display:block;object-fit:contain;width:auto;height:auto}
+
+/* icon-wrap positions talismans relative to the icon. The overlays are
+  absolutely positioned so the talisman's top-left sits at the icon's
+  top-right (with a small 6px offset). This keeps the talismans visually
+  attached to the icon regardless of the icon's intrinsic size. */
+.talisman-column{width:var(--icon-small);flex:0 0 var(--icon-small);display:flex;flex-direction:column;gap:6px;align-items:center;justify-content:center;align-self:center}
+.talisman-column .talisman{width:var(--icon-small);height:var(--icon-small);border-radius:3px;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.talisman-column .talisman img{width:100%;height:100%;object-fit:contain;display:block}
+
+/* Empty slot cards should show the slot name top-left aligned */
+.slot-card.empty-slot{padding:6px}
+.slot-card.empty-slot .slot-row{align-items:flex-start}
+.slot-card.empty-slot .slot-meta{align-items:flex-start}
+.slot-card.empty-slot .slot-name{align-self:flex-start}
+.slot-meta{display:flex;flex-direction:row;gap:6px;align-items:flex-start;flex:1;justify-content:flex-start;min-width:0}
+.talisman-column{width:var(--icon-small);flex:0 0 var(--icon-small);display:flex;flex-direction:column;gap:6px;align-items:center;justify-content:center;align-self:center}
+.talisman-column .talisman{width:var(--icon-small);height:var(--icon-small);border-radius:3px;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.talisman-column .talisman img{width:100%;height:100%;object-fit:contain;display:block}
+.slot-name{font-size:13px;color:#cfe6ff;text-transform:capitalize;white-space:normal;overflow-wrap:break-word;word-break:break-word;text-align:left;margin-top:0;align-self:flex-start}
 .talisman-area{height:20px;display:flex;gap:6px;align-items:center}
 .talisman-area{height:20px;display:flex;gap:6px;align-items:center;justify-content:flex-start}
 .talisman-area .talisman{width:18px;height:18px;border-radius:4px;background:rgba(255,255,255,0.03)}
@@ -66,7 +91,7 @@ body{font-family:Inter, system-ui, Arial, sans-serif; margin:0;background:var(--
 .picker-item{background:var(--panel);border-radius:10px;padding:4px 6px;display:flex;gap:8px;align-items:center;cursor:pointer;border:1px solid transparent;transition:transform .12s ease,box-shadow .12s ease,border-color .12s ease;height:44px}
 .picker-item:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(96,165,250,0.10), 0 6px 18px rgba(2,6,23,0.55);border-color:rgba(96,165,250,0.18)}
 .picker-item:focus-visible{outline:none;border-color:rgba(96,165,250,0.22);box-shadow:0 14px 34px rgba(96,165,250,0.12), 0 6px 18px rgba(2,6,23,0.6)}
-.picker-icon{width:40px;height:40px;border-radius:8px;background:var(--glass);display:flex;align-items:center;justify-content:center;overflow:hidden;flex:0 0 40px;padding:0}
+.picker-icon{width:var(--icon-medium);height:var(--icon-medium);border-radius:8px;background:var(--glass);display:flex;align-items:center;justify-content:center;overflow:hidden;flex:0 0 var(--icon-medium);padding:0}
 .picker-icon img{display:block;width:100%;height:100%;object-fit:contain}
 .picker-name{font-size:13px;color:#cfe6ff;align-self:center}
 
@@ -81,10 +106,52 @@ body{font-family:Inter, system-ui, Arial, sans-serif; margin:0;background:var(--
 .picker-clear{background:transparent;border:1px solid rgba(255,255,255,0.04);padding:6px 8px;border-radius:8px;color:var(--muted);cursor:pointer}
 
 /* Tooltip styling — reuses slot-card visual language but compact */
-.tooltip{position:absolute;pointer-events:none;z-index:60}
-.tooltip-card{background:var(--panel);border-radius:8px;padding:8px;min-width:220px;border:1px solid rgba(96,165,250,0.18);box-shadow:0 18px 40px rgba(96,165,250,0.14), 0 8px 26px rgba(2,6,23,0.6);transition:box-shadow .12s ease,border-color .12s ease}
-.tooltip-content{display:flex;gap:8px;align-items:center}
-.tooltip .slot-icon{width:36px;height:36px;border-radius:6px;padding:2px}
-.tooltip .slot-icon img{width:100%;height:100%;object-fit:contain}
+.tooltip{position:absolute;pointer-events:none;z-index:60;/* allow tooltip to expand larger in viewport */max-width:90vw;max-height:90vh;overflow:visible;font-size:12px}
+.tooltip-card{background:var(--panel);border-radius:8px;padding:8px;/* fixed test width */width:300px;max-width:95vw;max-height:90vh;overflow:visible;border:1px solid rgba(96,165,250,0.18);box-shadow:0 18px 40px rgba(96,165,250,0.14), 0 8px 26px rgba(2,6,23,0.6);transition:box-shadow .12s ease,border-color .12s ease}
+.tooltip-content{display:flex;gap:6px;align-items:flex-start}
+.tooltip .slot-icon{width:var(--icon-medium);height:var(--icon-medium);border-radius:6px;padding:2px;flex:0 0 var(--icon-medium);display:flex;align-items:flex-start;justify-content:center;overflow:hidden}
+.tooltip .slot-icon img{display:block;max-width:100%;max-height:100%;object-fit:contain}
 .tooltip .slot-name{font-size:13px}
+
+/* Item tooltip specific styles (no extra spacing between sections) */
+.item-tooltip{display:flex;flex-direction:column;gap:4px}
+.item-tooltip-name{font-weight:600;font-size:12px;/* allow wrap in slot cards where space is limited */white-space:normal;overflow-wrap:break-word}
+.meta-line{font-size:12px;color:var(--muted)}
+.item-tooltip-desc{font-size:11px;color:#c7cbd1;font-style:italic;margin-top:0}
+.item-tooltip-meta{display:flex;gap:8px;flex-wrap:wrap}
+.meta-item{font-size:11px;color:var(--muted)}
+.item-tooltip-stats-row{display:flex;gap:12px}
+.item-tooltip-stats{margin-top:0}
+.stat-line{color:#ff0}
+.item-tooltip-talisman{margin-top:0}
+.item-tooltip-talisman-rows{display:flex;flex-direction:column;gap:4px}
+.item-tooltip-talisman-row{display:flex;align-items:flex-start;gap:8px}
+.item-tooltip-talisman-meta{display:flex;flex-direction:column;gap:4px}
+.talisman-stats-row{display:flex;gap:8px;margin-top:2px}
+.talisman-name{font-weight:600}
+.talisman-empty{font-size:11px;color:var(--muted)}
+.talisman-empty-icon{width:var(--icon-small);height:var(--icon-small);border-radius:3px;display:inline-block;object-fit:contain}
+.item-tooltip-set{margin-top:0;border-top:1px solid rgba(255,255,255,0.04);padding-top:0}
+.item-tooltip-set-name{font-weight:400;font-size:12px;color:var(--muted);margin-left:0}
+.set-bonus{font-size:11px;margin-left:12px;margin-top:0;color:var(--muted)}
+
+/* Abilities and Buffs styling mirrors item-set bonuses */
+.item-tooltip-abilities, .item-tooltip-buffs{margin-top:0;border-top:1px solid rgba(255,255,255,0.04);padding-top:0}
+
+/* Force zero spacing even when inline styles are present in Tooltip.tsx */
+.item-tooltip-info,
+.item-tooltip-stats,
+.item-tooltip-talisman,
+.item-tooltip-set,
+.item-tooltip-abilities-buffs,
+.item-tooltip-requirements {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.item-tooltip-desc { margin-top: 0 !important; }
+.ability-item, .buff-item{margin-top:0}
+.ability-name, .buff-name{font-size:11px;color:#0f0;font-weight:400;margin-left:0}
+.ability-desc, .buff-desc{font-size:11px;color:#0f0}
+.item-tooltip-req{font-size:12px;color:var(--muted)}
 
